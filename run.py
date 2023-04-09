@@ -13,7 +13,7 @@ from rich.panel import Panel as nel
 from rich.progress import track
 from time import sleep
 from rich import print as cetak
-from concurrent.futures import ThreadPoolExecutor as BrayennnXD 
+from concurrent.futures import ThreadPoolExecutor as CLAY
 from rich.panel import Panel
 from rich.markdown import Markdown as mark
 from rich.columns import Columns as col
@@ -51,7 +51,7 @@ from rich.table import Table
 from rich.columns import Columns
 from rich.progress import Progress,SpinnerColumn,BarColumn,TextColumn,TimeElapsedColumn
 console = Console()
-sys.stdout.write('\x1b]2; BMBF | BrayennnXD Multi Brute Facebook\x07')
+sys.stdout.write('\x1b]2; BMBF | CLAY Multi Brute Facebook\x07')
 #------------------[ USER-AGENT ]-------------------#
 pretty.install()
 CON=sol()
@@ -75,7 +75,7 @@ for xd in range(10000):
 	c=random.randrange(73,100)
 	d=random.randrange(4200,4900)
 	e=random.randrange(40,150)
-	uaku=f'Mozilla/5.0 (Linux; Android {a}; SAMSUNG SM-A305FN) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{c}.0.{d}.{e} Mobile Safari/537.36'
+	uaku=f'Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.105 Mobile Safari/537.36'
 	ugen2.append(uaku)
 
 #------------[ UBAH UA DIH SINI OM ]---------------#
@@ -182,8 +182,8 @@ def banner():
 	cetak(panel(f"""
  ______ ___  _____  ___________  _____  _____ _   __ 
  |  ___/ _ \/  __ \|  ___| ___ \|  _  ||  _  | | / /
- | |_ / /_\ \ /  \/| |__ | |_/ /| | | || | | | |/ /     |  |   Author Script Alvino
- |  _||  _  | |    |  __|| ___ \| | | || | | |    \     |  |   Update By BrayennnXD 
+ | |_ / /_\ \ /  \/| |__ | |_/ /| | | || | | | |/ /     |  |   Author Script CLAY
+ |  _||  _  | |    |  __|| ___ \| | | || | | |    \     |  |   Update CLAY-AI
  | |  | | | | \__/\| |___| |_/ /\ \_/ /\ \_/ / |\  \    |  |   Version Script 2.7
  \_|  \_| |_/\____/\____/\____/  \___/  \___/\_| \_/                                                                                                     
              """,width=90,title=f"Banner",style=f"bold white"))
@@ -298,10 +298,10 @@ def menu(my_name,my_id):
 	cetak(panel(f'[bold white][[bold green]•[/][bold white]][/] [bold white]Username : [bold green]{my_name}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold white]User Idz : [bold green]{my_id}[/]\n[bold white][[bold green]•[/][bold white]][/] [bold white]User Ip  : [bold green]{ip}[/][/] ',width=90,title=f"[bold green]Infomasi",style=f"bold white"))
 	cetak(panel(f'[bold white][[bold green]01[/][bold white]][/] [bold white]Crack Publick [[bold green] ON [bold white]][/]\n[bold white][[bold green]02[/][bold white]][/] [bold white]Crack Massal [[bold green] ON [bold white]][/]\n[bold white][[bold green]03[/][bold white]][/] [bold white]Cek Result [[bold green] ON [bold white]][/]\n[bold white][[bold green]04[/][bold white]][/] [bold white]Donasi Untuk Brayen [[bold green] ON [bold white]][/]\n[bold white][[bold green]00[/][bold white]][/] [bold red]Ganti Cookies [[bold green] ON [bold white]][/]',width=90,title=f"[bold green]List Menu",style=f"bold white"))
 	cetak(panel(f'[bold white]Ketik [bold green]"Lainnya"[bold white] Untuk Melihat Menu Tambahan | Ketik [bold green]"Bot"[bold white] Untuk Ke Menu Tambahan',width=90,title=f"[bold green]Informasi Crack",style=f"bold white"))
-	_____brayennn___xd____ = input(f' ╰─  Pilih Menu Crack : ')
-	if _____brayennn___xd____ in ['1','01']:
-		brayen_dump()
-	elif _____brayennn___xd____ in ['2','02']:
+	_____CLAY___xd____ = input(f' ╰─  Pilih Menu Crack : ')
+	if _____CKAY___xd____ in ['1','01']:
+		_dump()
+	elif _____CLAY___xd____ in ['2','02']:
 		dump_massal()
 	elif _____brayennn___xd____ in ['3','03']:
 		result()
@@ -350,7 +350,7 @@ def bot():
 
 agent = random.choice(
 		[
-			"Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36",
+			"Mozilla/5.0 (Linux; Android 9; CPH2083 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/89.0.4389.105 Mobile Safari/537.36",
 			"Mozilla/5.0 (Linux; Android 5.0; SAMSUNG SM-G900F Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/2.1 Chrome/34.0.1847.76 Mobile Safari/537.36",
 			"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36",
 			"Dalvik/1.6.0 (Linux; U; Android 4.1.1; BroadSign Xpress 1.0.14 B- (720) Build/JRO03H)",
@@ -1818,9 +1818,9 @@ def scarpping_ua():
         if response.status_code == 200:
             uascrap.append(response.json()['ua'])
         else:
-            uascrap.append("Mozilla/5.0 (Linux; Android 11; RMX3501) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36")
+            uascrap.append("Mozilla/5.0 (Linux; Android 11; CPH2083) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36")
     except requests.exceptions.ConnectionError:
-        uascrap.append("Mozilla/5.0 (Linux; Android 11; RMX3501) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Mobile Safari/537.36")
+        uascrap.append("Mozilla/5.0 (Linux; Android 9; CPH2083) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36")
 
 #-----------------------[ SYSTEM-CONTROL ]--------------------#
 if __name__=='__main__':
